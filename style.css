@@ -1,0 +1,112 @@
+.container {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    height: 300px;
+}
+.wrap-first {
+    width: 0;
+    height: 10px;
+    border: 1px solid #a0a0a0;
+    position: relative;
+    left: 50%;
+    top: 115px;
+    transform: rotate(180deg);
+}
+.wrap-first span {
+    transform: rotate(180deg);
+}
+.wrap-second {
+    width: 255px;
+    height: 10px;
+    margin-left: -29px;
+    margin-top: 115px;
+    border-top: 2px solid #a0a0a0;
+    border-left: 2px solid #a0a0a0;
+    border-right: 2px solid #a0a0a0;
+}
+.wrap-third {
+    width: 246px;
+    margin-top: 112px;
+    margin-left: 104px;
+    position: relative;
+
+}
+.wrap-fourth {
+    margin-top: 250px;
+    margin-left: 50px;
+}
+.left-boxes {
+    width: 120px;
+    height: 10px;
+    border-top: 2px solid #a0a0a0;
+    border-left: 2px solid #a0a0a0;
+    border-right: 1px solid #a0a0a0;
+    float: left;
+    margin-left: 0;
+}
+.right-boxes {
+    width: 120px;
+    height: 10px;
+    border-top: 2px solid #a0a0a0;
+    border-left: 1px solid #a0a0a0;
+    border-right: 2px solid #a0a0a0;
+    margin-right: 0;
+    float: right;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: #1898fd;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    font-size: 18px;
+}
+.box-2 {
+    margin-left: -53px;
+    margin-top: 10px;
+    float: left;
+}
+.box-3 {
+    margin-left: 199px;
+    margin-top: 10px;
+}
+.box-4 {
+    top: 10px;
+    position: absolute;
+    left: -53px;
+}
+.box-5 {
+    top: 10px;
+    position: absolute;
+    left: 70px;
+}
+.box-6 {
+    top: 10px;
+    position: absolute;
+    left: 192px;
+}
+.line-column-second {
+    position: absolute;
+    width: 0;
+    top: 241px;
+    left: 226px;
+    height: 11px;
+    border: 1px solid #a0a0a0;
+}
+.line-column-third {
+    position: absolute;
+    width: 0;
+    top: 363px;
+    left: 105px;
+    height: 24px;
+    border: 1px solid #a0a0a0;
+}
